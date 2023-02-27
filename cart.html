@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Carpet Island</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Carpet Island</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>          
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href ="cart.html"><img src="shop.png" alt="shop" height="35"></a></li>
+
+        </ul>
+      </nav></header>
+      <link rel="stylesheet" type="text/css" href="cart.css">
+      <div class="cart-section">
+  <h2>Cart</h2>
+  <div id="cart-items"></div>
+  <p id="cart-total">Total: ₹0</p>
+  <button id="clear-cart-button">Clear Cart</button>
+  <button type="button" onclick="location.href='Payment.html'">Payment</button>
+
+</div>
+<body>
+<script> 
+  const cartItems = document.querySelector('.cart-items');
+const cartTotal = document.querySelector('.cart-total');
+
+// Display the items in the cart
+cart.items.forEach(item => {
+  const cartItem = document.createElement('div');
+  cartItem.classList.add('cart-item');
+  cartItem.innerHTML = `
+    <img src="${item.image}" alt="${item.name}">
+    <h3>${item.name}</h3>
+    <p>₹${item.price.toFixed(2)}</p>
+  `;
+  cartItems.appendChild(cartItem);
+});
+
+// Display the total value of the cart
+cart.total = cart.items.reduce((total, item) => total + item.price, 0);
+cartTotal.textContent = `₹${cart.total.toFixed(2)}`;
+
+</script>
+<footer>
+  <p>&copy; 2023 Carpet Island</p>
+</footer>
+</body>

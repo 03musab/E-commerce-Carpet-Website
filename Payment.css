@@ -1,0 +1,47 @@
+.container {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+.googlepay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .googlepay h3 {
+    color: #3E3E3E;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .googlepay p {
+    color: #777777;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .googlepay button {
+    background-color: #4285F4;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .googlepay button:hover {
+    background-color: #3367D6;
+  }
+  

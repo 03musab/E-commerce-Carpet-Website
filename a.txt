@@ -1,0 +1,47 @@
+<img src="1carpet.jpg" alt="CARPET ISLAND HAND-MADE TUFTED GEOMETRIC WOLLEN CARPET">
+          <p>Price: ₹4999</p>
+          <button class="add-to-cart" onclick="addToCart('item-name')">Add to Cart</button>
+        </li>
+
+        <img src="2carpet.jpg" alt="CARPET ISLAND HAND-MADE TUFTED GEOMETRIC WOLLEN CARPET">
+          <p>Price: ₹6499</p>
+          <button class="add-to-cart" onclick="addToCart('CARPET ISLAND HAND-MADE TUFTED GEOMETRIC WOLLEN CARPET')">Add to Cart</button>
+
+
+<h3>CARPET ISLAND FLUFFY WOVEN SHAGGY CARPET RUG           </h3>
+          <img src="3carpet.jpg" alt="CARPET ISLAND FLUFFY WOVEN SHAGGY CARPET RUG">
+          <p>Price: ₹3799</p>
+          <button class="add-to-cart" onclick="addToCart('item-name')">Add to Cart</button>
+        </li>
+
+                <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+
+??
+<div class="product-details">
+    <div class="product-image">
+      <img src="1carpet.jpg" alt="CARPET ISLAND HAND-MADE TUFTED GEOMETRIC WOLLEN CARPET">
+    </div>
+    <h2 class="product-name">CARPET ISLAND HAND-MADE TUFTED GEOMETRIC WOLLEN CARPET</h2>
+    <p class="product-description">Exquisite Color Combination , Binding on Edge , Canvas Backing With Best Quality
+        Hand Woven with Fine Wool in Master Designed By Well Versed Weaver
+        Care instructions: Vacuum Regularly For Cleaning Spot.
+        If you want to make a custom rug, Leave your number below in (Question & Answer) Section. We will contact you or whatsapp on 8090609679</p>
+    <p class="product-price">₹4999</p>
+    <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+    <div class="product-details">
+        <div class="product-image">
+          <img src="2carpet.jpg" alt="Product Name">
+        </div>
+        <h2 class="product-name">CARPET ISLAND Fluffy Woven Shaggy Carpet for Living Room Bedroom & Hall</h2>
+        <p class="product-description">UXURIOUS APPEARANCE: This plush carpet rug adds a pop of luxury to any space.; COLOR OPTIONS: Choose from a variety of beautiful, modern colors that will really tie the room together
+            GREAT IN ANY ROOM: Wonderful for bedrooms, living rooms, entryways, and much more.
+            CLEAN EASILY : THE RUG CAN BE SPOT CLEANED OR VACCUMED EASILY DUE TO ITS DENSE PILE
+            STAYS PUT : Because The Carpet Is So Thick And Heavy It Stays In Place with Ease .
+            Item Shape: Rectangular , StYle Name : Casual , Pattern Type : Stripped</p>
+        <p class="product-price">₹3799</p>
+        <button class="add-to-cart-button" onclick="addToCart(this)">Add to Cart</button>
+      </div>
+  </div>
+
+
+#content > div.categories.row > div > ul > li:nth-child(1) > div > div.listing-discount-ribbon-content
